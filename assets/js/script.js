@@ -26,7 +26,7 @@ let timeRender = setInterval(function(){
         }
     }
     
-    $('#currentDay').text(moment().format('[Today is ] dddd, MMM Do YYYY [. Current time: ]HH:MM:ss'))
+    $('#currentDay').text(moment().format('[Today is ] dddd, MMM Do YYYY [. Current time: ]h:mm:ss a'))
 }, 10)
 
 //Render schedule function when page refresh or clear button clicked
