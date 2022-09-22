@@ -18,22 +18,27 @@
 ### Overview
 
 > Here is the application interface when launched
+>
 > <img src="assets/img/screenshot.png" width="60%">
 
 > Current date time information will be shown in the header area
+>
 > <img src="assets/img/header.png" width="60%">
 
 > Different colored box in the scheduler shows event in different time
 >
 > Gray(Disabled) area shows the past event
+>
 > <img src="assets/img/gray.png" width="70%">
->
+
 > Yellow area is the current hour
+>
 > <img src="assets/img/yellow.png" width="70%">
->
+
 > Green area is the future event for today
-> <img src="assets/img/green.png" width="70%">
 >
+> <img src="assets/img/green.png" width="70%">
+
 > Scheduler is based on 9-5 working hours
 
 ### Schedule a Event
@@ -51,9 +56,11 @@
 > <img src="assets/img/savebtn.png" width="10%">
 
 > Note: Once passed 5pm each day, event scheduler will be disabled, you are not able to change any past events
+>
 > <img src="assets/img/evening-after.png" width="70%">
 
 > Once passed midnight, your event scheduler will reset and you can start schedule for your next day's event
+>
 > <img src="assets/img/morning-before.png" width="70%">
 
 ### Clearing the Schedule
