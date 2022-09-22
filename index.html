@@ -4,35 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Bootstrap V4.3.1 css library-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!--Fontawesome V5.8.1 css library-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!--Google font: Open Sans-->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <!--Local css stylesheet-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
   <body>
+    <!--Header area-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <!--Display for current date and time-->
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
+    <!--Container for Scheduler-->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">9am</div>
+        <input type="text" class="col-10 form-control h-100" data-time="9"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">10am</div>
+        <input type="text" class="col-10 form-control h-100" data-time="10"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">11am</div>
+        <input type="text" class="col-10 form-control h-100" data-time="11"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">12pm</div>
+        <input type="text" class="col-10 form-control h-100" data-time="12"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">1pm</div>
+        <input type="text" class="col-10 form-control h-100" data-time="13"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">2pm</div>
+        <input type="text" class="col-10 form-control h-100" data-time="14"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">3pm</div>
+        <input type="text" class="col-10 form-control h-100" data-time="15"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">4pm</div>
+        <input type="text" class="col-10 form-control h-100" data-time="16"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 py-2 text-right h4 border-top">5pm</div>
+        <input type="text" class="col-10 form-control h-100" data-time="17"></input>
+        <div class="col-1">
+          <button type="button" class="btn saveBtn h-100">
+            Save
+          </button>
+        </div>
+      </div>
+      
     </div>
-
+    <!--Clear Button for scheduler-->
+    <div class="col-12 text-center"><button type="button" class="btn btn-danger" id="clearBtn">Clear</button></div>
+    <!--jQuery V3.2.1 JS Library-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Moment.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!--Local Script-->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
