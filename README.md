@@ -18,6 +18,7 @@
 ### Overview
 
 > Here is the application interface when launched
+> <img src="assets/img/screenshot.png" width="60%">
 
 > Current date time information will be shown in the header area
 > <img src="assets/img/header.png" width="60%">
