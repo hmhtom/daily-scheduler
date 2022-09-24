@@ -15,6 +15,8 @@
 
 ## Visualization and Usage
 
+[View Deployed Project](https://hmhtom.github.io/daily-scheduler/)
+
 ### Overview
 
 > Here is the application interface when launched
